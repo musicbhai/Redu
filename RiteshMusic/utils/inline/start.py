@@ -15,7 +15,7 @@ def start_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_5"],
-                url="https://github.com/musicbhai/Simple"
+                url="https://t.me/CrunchyrollAsia"
             )
         ]
     ]
@@ -41,7 +41,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], web_app=WebAppInfo(url="https://usesenses.netlify.app")), 
-            InlineKeyboardButton(text=_["S_B_5"], url="https://github.com/musicbhai/Simple")
+            InlineKeyboardButton(text=_["S_B_5"], url="https://t.me/CrunchyrollAsia")
         ]
     ]
     return buttons
