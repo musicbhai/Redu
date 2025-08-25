@@ -9,7 +9,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.enums import ChatAction
 from youtubesearchpython.__future__ import VideosSearch
-from config import API_KEY, API_BASE_URL
+from config import YT_API_KEY, YTPROXY_URL
 from RiteshMusic import app
 
 # 📝 Logging Setup
@@ -51,7 +51,7 @@ def download_thumbnail(video_id: str) -> str | None:
 
 def api_dl(video_id: str) -> str | None:
     try:
-        url = f"{API_BASE_URL}/download/song/{video_id}?key={API_KEY}"
+        url = f"{YTPROXY_URL}/download/song/{video_id}?key={YT_API_KEY}"
         file_path = os.path.join(DOWNLOADS_DIR, f"{video_id}.mp3")
         if os.path.exists(file_path):
             return file_path
