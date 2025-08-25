@@ -15,8 +15,8 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 #Get API_KEY from @senses 
-API_BASE_URL = getenv("API_BASE_URL", "")
-API_KEY = getenv("API_KEY")
+API_BASE_URL = getenv("API_BASE_URL", "https://tgapi.xbitcode.com")
+API_KEY = getenv("API_KEY", "xbit_80Z0TD6O878JKNF88R4C44")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
