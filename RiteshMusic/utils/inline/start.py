@@ -41,7 +41,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_6"], web_app=WebAppInfo(url="https://usesenses.netlify.app")), 
-            InlineKeyboardButton(text=_["S_B_5"], url="https://t.me/CrunchyrollAsia")
+            InlineKeyboardButton(text=_["S_B_5"], url="https://t.me/ppa_ji")
         ]
     ]
     return buttons
