@@ -1,5 +1,3 @@
-#⟶̽ जय श्री ༢།म >𝟑🙏🚩
-
 import asyncio
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
