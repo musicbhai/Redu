@@ -125,7 +125,7 @@ async def get_thumb(videoid: str) -> str:
         bg.paste(black_ic, (ICONS_X, ICONS_Y), black_ic)
 
     # ✅ Watermark with glow
-    watermark_text = "⟶̽ जय श्री ༢།म >𝟑🙏🚩"
+    watermark_text = "Ownr @Redhu321"
     text_size = draw.textsize(watermark_text, font=watermark_font)
     x = bg.width - text_size[0] - 25
     y = bg.height - text_size[1] - 25
